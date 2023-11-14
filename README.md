@@ -50,3 +50,10 @@ int main(void)
 `%S`: Print strings with special character handling.
 `%R`: Print strings in ROT13.
 `%%`: Print a literal '%' character.
+## Compilation
+- To compile the code, use the following command:
+
+```bash
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
+```
+This assumes that all source files (*.c) are in the same directory. Adjust the command as needed for your project structure.
