@@ -1,4 +1,4 @@
-# Printf Implementation
+no# Printf Implementation
 
 ## Introduction
 This repository contains a custom implementation of the printf function in C. The printf function is a widely used function in the C programming language that is used for formatted output. This implementation provides support for a variety of format specifiers, allowing users to format and print data in a flexible way.
@@ -38,3 +38,15 @@ int main(void)
 
     return 0;
 }
+```
+## Supported Format Specifiers
+`%d` and `%i`: Print signed integers.
+`%u`: Print unsigned integers.
+`%x` and `%X`: Print integers in hexadecimal format.
+`%o`: Print integers in octal format.
+`%c`: Print characters.
+`%s`: Print strings.
+`%p`: Print memory addresses.
+`%S`: Print strings with special character handling.
+`%R`: Print strings in ROT13.
+`%%`: Print a literal '%' character.
