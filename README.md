@@ -1,4 +1,4 @@
-# Printf Implementation
+# Printf Implementation description 
 
 ## Introduction
 This repository contains a custom implementation of the printf function in C. The printf function is a widely used function in the C programming language that is used for formatted output. This implementation provides support for a variety of format specifiers, allowing users to format and print data in a flexible way.
