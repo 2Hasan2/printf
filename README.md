@@ -56,4 +56,9 @@ int main(void)
 ```bash
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
 ```
+
 This assumes that all source files (*.c) are in the same directory. Adjust the command as needed for your project structure.
+## authors
+* **Marwa Gharieb** - [ifonll](https://github.com/ifonll)
+
+* **Hasan Ragab** - [2Hasan2](https://github.com/2Hasan2)
