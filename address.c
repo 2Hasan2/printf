@@ -4,7 +4,7 @@
  * @args: va_list arguments from _printf
  * @f: pointer to the struct flags that determines
  * Return: number of characters printed
- */ 
+ */
 int print_address(va_list args, flags_format *f)
 {
 	unsigned long int p;

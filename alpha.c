@@ -8,10 +8,10 @@
  */
 int print_string(va_list args, flags_format *f)
 {
-    char *s = va_arg(args, char *);
+	char *s = va_arg(args, char *);
 
-    (void)f;
-    return (_puts((s != NULL) ? s : "(null)"));
+	(void)f;
+	return (_puts((s != NULL) ? s : "(null)"));
 }
 
 /**
@@ -22,7 +22,7 @@ int print_string(va_list args, flags_format *f)
  */
 int print_char(va_list args, flags_format *f)
 {
-    (void)f;
-    _putchar(va_arg(args, int));
-    return (1);
+	(void)f;
+	_putchar(va_arg(args, int));
+	return (1);
 }
