@@ -10,15 +10,25 @@ This repository contains a custom implementation of the printf function in C. Th
 
 ### Source Files
 - **_putchar.c**: Contains the implementation of the `_putchar` function, which prints a single character to the standard output.
+
 - **_puts.c**: Contains the implementation of the `_puts` function, which prints a string to the standard output.
+
 - **nums.c**: Contains functions for printing integers and unsigned integers, as well as helper functions for counting digits.
+
 - **bases.c**: Contains functions for printing numbers in various bases such as hex, HEX, binary, and octal.
+
 - **_printf.c**: Contains the main implementation of the `_printf` function, which simulates the behavior of the standard printf function.
+
 - **get_print.c**: Contains a function that returns a function pointer based on the format specifier character.
+
 - **get_flag.c**: Contains a function that updates a flags_format structure based on a given character.
+
 - **alpha.c**: Contains functions for printing strings and characters.
+
 - **custom.c**: Contains custom functions for printing strings in ROT13, handling special characters in strings, and reversing strings.
+
 - **percent.c**: Contains the implementation for printing the '%' character.
+
 - **address.c**: Contains the implementation for printing memory addresses.
 
 ## How to Use
