@@ -13,9 +13,9 @@
  */
 typedef struct flags
 {
-    int plus;
-    int space;
-    int hash;
+	int plus;
+	int space;
+	int hash;
 } flags_format;
 
 /**
@@ -27,8 +27,8 @@ typedef struct flags
  */
 typedef struct Handler_format
 {
-    char c;
-    int (*f)(va_list args, flags_format *f);
+	char c;
+	int (*f)(va_list args, flags_format *f);
 } switch_fromat;
 
 /* write */
@@ -61,6 +61,7 @@ int get_flag(char s, flags_format *f);
 /* alpha */
 int print_string(va_list args, flags_format *f);
 int print_char(va_list args, flags_format *f);
+int count_string(char *string);
 
 /* custom */
 int print_rot13(va_list args, flags_format *f);
